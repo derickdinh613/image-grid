@@ -19,6 +19,7 @@ html {
 img {
   width: 100%;
   display: block;
+  float: left;
 }
 
 img:nth-child(2) {
@@ -30,7 +31,6 @@ img:nth-child(5) {
 }
 
 body {
-  float: left;
   margin: 0;
 }
 
@@ -44,23 +44,19 @@ body {
   img:nth-child(2) {
     display: block;
     width: 50%;
-    float: left;
   }
 
   img:nth-child(3) {
     width: 50%;
-    float: left;
   }
 
   img:nth-child(4) {
     width: 50%;
-    float: left;
   }
 
   img:nth-child(5) {
     display: block;
     width: 50%;
-    float: left;
   }
 
 }
